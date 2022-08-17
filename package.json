@@ -1,6 +1,6 @@
 {
   "name": "remark-mermaid-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remark mermaidjs plugin",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

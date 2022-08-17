@@ -61,4 +61,20 @@ function Markdown() {
     />
   );
 }
+
+```
+
+or 
+
+```js
+<ReactMarkdown
+  children={markdownContent}
+  remarkPlugins={[
+    remarkMermaidPlugin
+  ]}
+  rehypePlugins={[
+    rehypeRaw,
+    rehypeStringify,
+  ]}
+/>
 ```
